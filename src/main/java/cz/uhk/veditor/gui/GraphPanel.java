@@ -23,5 +23,7 @@ public class GraphPanel extends JPanel {
         for (AbstractGeomObject obj : objectList) {
             obj.draw(g2);
         }
+
     }
+
 }
